@@ -1,9 +1,10 @@
+let n = 8 //total number of questions currently
 const quiz = {
   Q1: {
     question: "Who is the founder of CodeTrybe?",
     options: [
       "a. Abiodun Shittu",
-      "b. Topman Paul-Dike",
+      "b. Topman Paul-Dike", //correct
       "c. Ebube Anyanwu",
       "d. Naheemah Bello",
     ],
@@ -14,7 +15,7 @@ const quiz = {
       "a. Weekends",
       "b. Work days",
       "c. ALX peer learning days",
-      "d. Daily or very often",
+      "d. Daily or very often", //correct
     ],
   },
   Q3: {
@@ -25,7 +26,7 @@ const quiz = {
     question: "The ALX SWE program actually last for ______",
     options: [
       "a. 12 months",
-      "b. 13 months",
+      "b. 13 months", //correct
       "c. 9 months foundation",
       "d. 3 months specilization",
     ],
@@ -36,7 +37,7 @@ const quiz = {
     options: [
       "a. Bachelor's degree in computer",
       "b. A good andriod phone and a mentor",
-      "c. PC, access to a good network and enough internet data",
+      "c. PC, access to a good network and enough internet data", //correct
       "d. YouTube tutorials",
     ],
   },
@@ -46,7 +47,7 @@ const quiz = {
       "a. Garri and soup",
       "b. Rice and beans",
       "c. All foods, as long as it is eadable",
-      "d. Anything hygienic, nutritious and tasty",
+      "d. Anything hygienic, nutritious and tasty", //correct
     ],
   },
   Q7: {
@@ -55,7 +56,7 @@ const quiz = {
       "a. Programming language for frontend development",
       "b. Language written in C",
       "c. C Static libray",
-      "d. JavaScript framework",
+      "d. JavaScript framework", //correct
     ],
   },
   Q8: {
@@ -63,7 +64,7 @@ const quiz = {
     options: [
       "a. Estreem Solitude 6",
       "b. Evaluation Standard 6",
-      "c. EcmaScript 6",
+      "c. EcmaScript 6", //correct
       "d. Evolution Storm 6",
     ],
   },
@@ -80,19 +81,7 @@ const questionNumber = [
   quiz.Q8,
 ];
 
-// console.log(questions);
-
-function printAllQuestions() {
-  for (let x = 0; x < 8; x++) {
-    console.log(questionNumber[x].question);
-    for (let option = 0; option < 4; option++) {
-      console.log(questionNumber[x].options[option]);
-    }
-    console.log("\n");
-  }
-}
-
-// printAllQuestions();
+// Print any question between questions 1 - n;
 
 function printQuestion(number) {
   if (!number) {
@@ -105,19 +94,13 @@ function printQuestion(number) {
     }
   }
 }
-
-function all(){
-	for (let x = 1; x <= 8; x++){
+// Print all questions from 1 - n
+function printAllQuestions(){
+	for (let x = 1; x <= n; x++){
 		printQuestion(x);
 		console.log('\n');
 	}
 }
 
-// printQuestion();
-all();
-//How each question should print:
-
-// console.log(quiz.Q1.question);
-// for (let i = 0; i < 4; i++){
-// 	console.log(quiz.Q1.options[i]);
-// }
+printQuestion(5)
+// printAllQuestions();
