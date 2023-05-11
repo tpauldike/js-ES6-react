@@ -1,6 +1,6 @@
 let n = 8 //total number of questions currently
 const quiz = {
-  Q1: {
+	Q1: {
     question: "Who is the founder of CodeTrybe?",
     options: [
       "a. Abiodun Shittu",
@@ -81,26 +81,32 @@ const questionNumber = [
   quiz.Q8,
 ];
 
-// Print any question between questions 1 - n;
-
+// Print any question between 1 - n; for debugging purposes
 function printQuestion(number) {
   if (!number) {
     console.log("Please enter the question number.\ne.g: 'printQuestion(5);'");
   } else {
-	console.log("QUESTION", number+':');
     console.log(questionNumber[number - 1].question);
     for (let option = 0; option < 4; option++) {
       console.log(questionNumber[number - 1].options[option]);
     }
   }
 }
-// Print all questions from 1 - n
+// Print all questions from 1 - n; for debugging purposes
 function printAllQuestions(){
 	for (let x = 1; x <= n; x++){
+    console.log("QUESTION", x+':');
 		printQuestion(x);
 		console.log('\n');
 	}
 }
 
-printQuestion(5)
+//Uncomment these to test the functions
+// printQuestion();
+// printQuestion(1);
 // printAllQuestions();
+
+const answers = ['b', 'd', 'c', 'b', 'c', 'd', 'd', 'c']
+
+let usersChoice, countdown, score, inPercentage, finalScore, skips, maxQuestion = 5;
+
