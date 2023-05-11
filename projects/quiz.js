@@ -69,17 +69,55 @@ const quiz = {
   },
 };
 
-function print_all(){
-	for (let u = 0; u < 8; u++){
-		console.log(quiz[u]);
+const questionNumber = [
+  quiz.Q1,
+  quiz.Q2,
+  quiz.Q3,
+  quiz.Q4,
+  quiz.Q5,
+  quiz.Q6,
+  quiz.Q7,
+  quiz.Q8,
+];
+
+// console.log(questions);
+
+function printAllQuestions() {
+  for (let x = 0; x < 8; x++) {
+    console.log(questionNumber[x].question);
+    for (let option = 0; option < 4; option++) {
+      console.log(questionNumber[x].options[option]);
+    }
+    console.log("\n");
+  }
+}
+
+// printAllQuestions();
+
+function printQuestion(number) {
+  if (!number) {
+    console.log("Please enter the question number.\ne.g: 'printQuestion(5);'");
+  } else {
+	console.log("QUESTION", number+':');
+    console.log(questionNumber[number - 1].question);
+    for (let option = 0; option < 4; option++) {
+      console.log(questionNumber[number - 1].options[option]);
+    }
+  }
+}
+
+function all(){
+	for (let x = 1; x <= 8; x++){
+		printQuestion(x);
+		console.log('\n');
 	}
 }
 
-// print_all();
-//How the question should print:
+// printQuestion();
+all();
+//How each question should print:
 
-console.log(quiz.Q1.question);
-for (let i = 0; i < 4; i++){
-	console.log(quiz.Q1.options[i]);
-}
-
+// console.log(quiz.Q1.question);
+// for (let i = 0; i < 4; i++){
+// 	console.log(quiz.Q1.options[i]);
+// }
