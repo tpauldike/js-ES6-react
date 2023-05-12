@@ -1,6 +1,8 @@
-let n = 8 //total number of questions currently
+const { clear } = require("console");
+
+let n = 8; //total number of questions currently
 const quiz = {
-	Q1: {
+  Q1: {
     question: "Who is the founder of CodeTrybe?",
     options: [
       "a. Abiodun Shittu",
@@ -93,12 +95,12 @@ function printQuestion(number) {
   }
 }
 // Print all questions from 1 - n; for debugging purposes
-function printAllQuestions(){
-	for (let x = 1; x <= n; x++){
-    console.log("QUESTION", x+':');
-		printQuestion(x);
-		console.log('\n');
-	}
+function printAllQuestions() {
+  for (let x = 1; x <= n; x++) {
+    console.log("QUESTION", x + ":");
+    printQuestion(x);
+    console.log("\n");
+  }
 }
 
 //Uncomment these to test the functions
@@ -106,7 +108,17 @@ function printAllQuestions(){
 // printQuestion(1);
 // printAllQuestions();
 
-const answers = ['b', 'd', 'c', 'b', 'c', 'd', 'd', 'c']
+const answers = ["b", "d", "c", "b", "c", "d", "d", "c"];
 
-let usersChoice, countdown, score, inPercentage, finalScore, skips, maxQuestion = 5;
+let usersChoice,
+  countdown,
+  score,
+  inPercentage,
+  finalScore,
+  skips,
+  maxQuestion = 5;
 
+const prompt = require('prompt-sync')();
+
+const answer = prompt(printQuestion(1));
+console.log(`Your answer was ${answer}`);
