@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const prompt = require('prompt-sync')();
 
 let n = 8; //total number of questions currently
