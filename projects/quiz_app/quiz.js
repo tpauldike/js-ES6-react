@@ -1,4 +1,4 @@
-const { clear } = require("console");
+const prompt = require('prompt-sync')();
 
 let n = 8; //total number of questions currently
 const quiz = {
@@ -110,15 +110,57 @@ function printAllQuestions() {
 
 const answers = ["b", "d", "c", "b", "c", "d", "d", "c"];
 
-let usersChoice,
-  countdown,
-  score,
-  inPercentage,
-  finalScore,
-  skips,
-  maxQuestion = 5;
+let answer,
+  passed = 0,
+  failed = 0,
+  score = 0,
+  user,
+  percentage,
+  totalScore = n * 5;
 
-const prompt = require('prompt-sync')();
+function checkOption(theOption){
+	let choice = theOption.toLowerCase();
+	if (choice.charCodeAt(0) < 97 || choice.charCodeAt(0) > 100){
+		return false;
+	}
+}
 
-const answer = prompt(printQuestion(1));
-console.log(`Your answer was ${answer}`);
+function askQuestion(number){
+	if (number < 1 || number > n){
+		console.log("There's no question with that number!");
+	} else {
+		answer = prompt(printQuestion(number));
+		let check = checkOption(answer);
+		if (answer === answers[number-1].toLowerCase()){
+			console.log(`Option '${answer}' is correct! You earned 5 marks`);
+			passed += 1;
+			score += 5;
+		} else if (check === false){
+			console.log(`'${answer}' is an invalid option; only options 'a' - 'd' are valid.\nYou've lost all your marks so far!!`);
+			score = 0;
+		} else {
+			console.log(`Option '${answer}' is wrong! You lost 3 marks`);
+			failed += 1;
+			score -= 3;
+		}
+		console.log(`\t[current score: ${score}]\n`);
+	}
+}
+
+//The quiz begins here
+user = prompt("Ready for the quiz? Let's know your name: ");
+for (let number = 1; number <= n; number++){
+	askQuestion(number);
+}
+console.log(`The quiz is over!\nYou answered ${passed} questions correctly, out of ${n} questions, and you failed ${failed}`);
+console.log('\nFinal result, loading...\n');
+percentage = (score/totalScore) * 100
+console.log(`You scored ${score}/${totalScore}, and that is about ${percentage}%`);
+
+if (percentage < 40) {
+	console.log(`Not good enough, ${user}, you may want to try again`);
+} else if (percentage >= 90){
+	console.log(`Congratulation, ${user}! You did so well`);
+} else {
+	console.log(`That was a good one, ${user}!`);
+}
