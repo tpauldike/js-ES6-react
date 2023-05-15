@@ -6,4 +6,4 @@ We demostrated this by creating some simple web pages and making them interactiv
 We ended the session with a particular task undone, which became an assignment to each individual; the assignment was;
 > *Make the **Identify yourself** button that is on the web page to ask
 for the user's name and respond with a message like "Hello <the_name>"
-when the button is clicked.
+when the button is clicked.*
