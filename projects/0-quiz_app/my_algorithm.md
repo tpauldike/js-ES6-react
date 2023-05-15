@@ -1,5 +1,5 @@
 # How I approached the Project
-### 1. Structure the questions and the options inside the variable **quiz**
+### 1. Structure the questions and the options inside the variable `quiz`
 
 The structure used is as follows:
 
