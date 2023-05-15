@@ -1,7 +1,7 @@
 # Multiple Choice Quiz
 This is about a simple `JavaScript` program that gives the user some quiz with 4 options (a - d) to choose the correct answer from, and scores the user, each time.
 
-The following functionalities are incorporated in the program:
+The following functionalities were incorporated in the program:
 1. The user's name is stored before the quiz starts
 2. Each correct answer attracts 5 marks
 3. 3 marks are lost each time the user fails a question
