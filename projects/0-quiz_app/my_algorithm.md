@@ -69,3 +69,14 @@ Harness all the variables and functions and get the quiz app running.
   	- percentage >= 70%     --- Congratulations!
   	- 40 <= percentage < 70%  - A good one
 ### 8. End the program
+---
+
+***To run the app (on the command line of a Linux machine), please follow the instructions in the [README](./README.md) file***
+
+## Other concerns
+1. I was concerned about getting the questions asked at random, so that question 1 doesn't have to be question 1 everytime you run the app
+2. I believe that there is surely a more efficient way to implement this program with shorter lines of codes
+3. There should be a check on the length of the string, so that only a character is accepted, probably using `choice.length`
+4. I thought there should be a way to strip spaces from the user's input, such that ' a' and 'a ' will be seen as 'a'
+
+#### Author: [Topman Paul-Dike](https://github.com/tpauldike)
