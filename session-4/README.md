@@ -7,3 +7,5 @@ We ended the session with a particular task undone, which became an assignment t
 > *Make the **Identify yourself** button that is on the web page to ask
 for the user's name and respond with a message like "Hello <the_name>"
 when the button is clicked.*
+
+To watch the live video recording, click [here](https://youtu.be/isSAj4l9hHc)
