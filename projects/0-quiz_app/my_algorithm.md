@@ -65,7 +65,7 @@ Harness all the variables and functions and get the quiz app running.
 3. After the quiz, show the number of question passed *(stored in `passed`)*, the total number of question (`n`), and the number of questions failed *(stored in `failed`)*.
 4. Evaluate and get the percentage, and show it to the user.
 5. Give the user some remark, based on his performance as follows:
-  - percentage < 40%      --- Not good enough
-  - percentage >= 70%     --- Congratulations!
-  - 40 <= percentage < 70%  - A good one
+  	- percentage < 40%      --- Not good enough
+  	- percentage >= 70%     --- Congratulations!
+  	- 40 <= percentage < 70%  - A good one
 ### 8. End the program
