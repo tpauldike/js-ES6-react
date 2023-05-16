@@ -8,4 +8,16 @@ The following functionalities were incorporated in the program:
 4. Inputing invalid option will cost the user his entire previous scores
 5. The final score is printed in the end and the percentage is calcualted, and the user gets some remark.
 
+The program was written and tested on the command line in a Linux environment, using the text editor, `vim`.
+
+To run the program you need to:
+- get the codes saved on your machine
+- ensure it is executable (or run `chomod u+x <file_name>` on the command line)
+- in addition to `node js`, intall prompt-sync as follows: `sudo apt update -y ; sudo apt install prompt-sync`
+- run the script (`./<file_name>`) or pass it as an argument to `node`, as in `node <file_name>`
+
 This project was presented in this [YouTube video](https://youtu.be/yEcHSZppLog)
+
+If you are interested in the lines of code, you may want to pay attention to [my algorithm](./my_algorithm.md).
+
+Note that the filed named `test` here is doing nothing but holding the initial codes that I wanted to use to get inputs form the user, the didn't work out well.
