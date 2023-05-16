@@ -160,8 +160,8 @@ console.log(`You scored ${score}/${totalScore}, and that is about ${percentage}%
 
 if (percentage < 40) {
 	console.log(`Not good enough, ${user}, you may want to try again`);
-} else if (percentage >= 90){
-	console.log(`Congratulation, ${user}! You did so well`);
+} else if (percentage >= 70){
+	console.log(`Congratulations, ${user}! You did so well`);
 } else {
 	console.log(`That was a good one, ${user}!`);
 }
