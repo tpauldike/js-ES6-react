@@ -1,0 +1,31 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+h2 {
+    font-size: 70px;
+    /* text-align: left; */
+}
+
+h3#signed_in {
+    text-align: left;
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: brown;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid brown;
+    cursor: pointer;
+}
+/* p {
+
+} */
