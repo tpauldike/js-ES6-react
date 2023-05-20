@@ -10,7 +10,8 @@ Welcome to the Number Guessing Game! This is a simple JavaScript game where the 
 6. The game will keep running until the number of attempts to guess is exceeded.
 
 ## Prerequisites
-To run the Number Guessing Game, you need to have a compatible programming environment set up, such as Node.js.
+- To run the Number Guessing Game, you need to have a compatible programming environment set up, such as Node.js.
+- in addition, install prompt-sync as follows: `npm install prompt-sync`
 
 ## How to Run the Game
 
