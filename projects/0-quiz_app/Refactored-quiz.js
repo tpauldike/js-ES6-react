@@ -304,5 +304,4 @@ user = prompt("Ready for the quiz? Let's know your name: ");
     }
     
     })
-    
 </script>
