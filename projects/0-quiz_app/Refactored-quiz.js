@@ -115,6 +115,10 @@
     }
 </style>
 <script>
+    	// Starting the quiz by asking the user's name
+alert("Welcome to the Quiz!");
+user = prompt("Ready for the quiz? Let's know your name: ");
+    
     // Questions will be asked
     const Questions = [{
             id: 0,
