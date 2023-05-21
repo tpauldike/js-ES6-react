@@ -13,5 +13,4 @@ At this point, we had as well built from very simple to a bit
 complex things with `JavaScript`, especially manipulating `HTML`
 and `CSS` documents.
 
-The video for this session will be available on *21st May, 2023* on
-YouTube.
+The video for this session will be available on [YouTube](https://www.youtube.com/playlist?list=PLU10dryLOLEEh4f5cEsx68yR4y8GWLSNS) soon
