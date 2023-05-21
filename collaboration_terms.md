@@ -15,7 +15,7 @@ To contribute to any work in this repository, you have to:
 
 ### 2. Only Work in the [projects](./projects) Directory
 Note that the contents of this repository *(especially in the directories named **sessions**)* were written in live sessions and saved so that the one who follows the live recordings can see the codes on GitHub, the way they were written in the [recorded videos](https://youtube.com/playlist?list=PLU10dryLOLEGEnWCZgG87VkvAi-fPaDfE).
-You don't want to alter the codes; if they interest you, make a copy of it in the [projects](./projects) directory and make all the alterations or modifications or improvements their.
+You don't want to alter the codes; if you wish to work on any of them, make a copy of it in the [projects](./projects) directory and make all the alterations or modifications or improvements there.
 
 ### 3. Name the File properly
 - If you're doing a new project, name the file using a number in base 15 as the prefix, and then a hyphen `-` and the name of the project.
