@@ -19,6 +19,7 @@ You don't want to alter the codes; if they interest you, make a copy of it in th
 
 ### 3. Name the File properly
 - If you're doing a new project, name the file using a number in base 15 as the prefix, and then a hyphen `-` and the name of the project.
+In other words, the projects are numbered from 0, follow the order.
 - Name your functions and variables properly, conforming to the necessary conventions.
 ###### Note that base 15 comprises **0 - f**. e.g; 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f, 10, 11, 12, ... 1f and so on.
 
