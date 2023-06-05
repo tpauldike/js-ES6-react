@@ -14,4 +14,4 @@ By this time, we had as well built from very simple to a bit
 complex things with `JavaScript` (individually), especially manipulating `HTML`
 and `CSS` documents.
 
-The video for this session will be available on [this YouTube playlist](https://www.youtube.com/playlist?list=PLU10dryLOLEEh4f5cEsx68yR4y8GWLSNS) soon
+The video for this session will be available on [this YouTube playlist](https://www.youtube.com/playlist?list=PLU10dryLOLEGEnWCZgG87VkvAi-fPaDfE) soon
