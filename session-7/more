@@ -1,0 +1,11 @@
+READ AND PLAY WITH THE FOLLOWING:
+
+spread operator & rest operator
+Ternary operator (using ':' and '?' rather than if-else)
+object property shorthand
+object.freeze()
+"use strict"
+try-catch (another control structure, just like we have if-else blocks)
+import/export
+closures
+promises/async/await
