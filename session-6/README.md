@@ -7,10 +7,11 @@ In this session, we learned about the following:
 - Function default parameters
 - Template literals
 - Destructuring
-- `map()`, `filter()`, `find()` and `reduce()`
 
-At this point, we had as well built from very simple to a bit
-complex things with `JavaScript`, especially manipulating `HTML`
+We were interrupted when the PC of the presenter ran out of power
+
+By this time, we had as well built from very simple to a bit
+complex things with `JavaScript` (individually), especially manipulating `HTML`
 and `CSS` documents.
 
 The video for this session will be available on [this YouTube playlist](https://www.youtube.com/playlist?list=PLU10dryLOLEGEnWCZgG87VkvAi-fPaDfE) soon
