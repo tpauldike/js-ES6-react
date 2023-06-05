@@ -8,4 +8,6 @@ In this session, we learned about
 - skipping indices while destructuring an array
 - The array methods - `.map()`, `.filter()`, `.reduce()` and `.find()`
 
+The codes were properly commented after the live session, to enhance clarity and readability. You may uncomment only the multi-line comments, to see clearly the single line comments and the codes or block of codes that follows
+
 The recorded video for this session will be out soon, on [this YouTube playlist](https://www.youtube.com/playlist?list=PLU10dryLOLEGEnWCZgG87VkvAi-fPaDfE).
