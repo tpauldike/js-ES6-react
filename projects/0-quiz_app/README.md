@@ -23,7 +23,7 @@ This project was presented live in this [YouTube video](https://youtu.be/yEcHSZp
 
 If you are interested in the lines of code and the logic behind them, you may want to pay attention to [my algorithm](./my_algorithm.md).
 
-Note that the filed named `test` here is doing nothing but holding the initial codes that I wanted to use to get inputs form the user, the didn't work out well.
+Note that the file named `test` here is just holding the initial codes that I wanted to use to get inputs from the user, while I was trying them out to see which will work well for me.
 
 ---
 
