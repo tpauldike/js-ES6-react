@@ -8,4 +8,4 @@ Refactored by [Abiodun Shittu](https://github.com/Abiodun-Shittu)
 
 ### 1. [Number Guessing Game](./1-number_guessing_game/) by [Abiodun Shittu](https://github.com/Abiodun-Shittu)
 
-### 2. [PricePrecision](./price_precision) by **The Team**
+### 2. [PricePrecision](./2-price_precision) by **The Team**
