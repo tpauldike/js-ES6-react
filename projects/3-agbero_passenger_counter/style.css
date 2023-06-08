@@ -1,0 +1,57 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("subway.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.counter {
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 100px;
+}
+
+h1 { 
+    color: rgb(230, 228, 227);
+    font-size: 3.5em;
+    text-align: center;
+}
+
+p{
+    color: rgb(230, 228, 227);
+    font-size: 1em;
+    text-align: center;
+}
+
+.btns{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.btns button{
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btns button:hover{
+    opacity: 0.5;
+}
+
+.up{
+    background-color: rgba(0, 128, 0, 0.9);
+    color: white;
+}
+
+.down{
+    background-color: rgba(255, 0, 0, 0.9);
+    color: white;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script src="https://kit.fontawesome.com/4628654256.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="counter">
+        <h1>Passengers:</h1>
+        <h1 id="count">0</h1>
+        <div class="btns">
+            <button class="up" onclick="increase()"><i class="fa-solid fa-arrow-up"></i></button>
+            <button class="down" onclick="decrease()"><i class="fa-solid fa-arrow-down"></i></button>
+            <button onclick="save()">Save</button>    
+        </div>
+        <p id="save-element">Previous entries: </p>
+    </div>
+
+
+    <script>
+        let passengerCount = 0;
+        const countElement = document.getElementById("count");
+
+        const increase = () => {
+            countElement.innerText = ++passengerCount;
+        }
+
+
+        const decrease = () => {
+            if (passengerCount > 0){
+                countElement.innerHTML = --passengerCount;
+            }
+
+            else{
+                alert("There are no passengers");
+            }
+        }
+        
+        const saveElement = document.getElementById("save-element");
+
+        
+        const save = () => {
+            let countAndDash = passengerCount + " - "
+
+            saveElement.textContent += countAndDash;
+            passengerCount = 0;
+            countElement.textContent = passengerCount;
+        }
+    </script>
+</body>
+
+</html>
