@@ -1,5 +1,6 @@
 
-# Session 9: Day 35
+# Session 9; Day 35
+
 In Session 9, we explored essential JavaScript operators and control structures. 
 
 We covered:
@@ -11,6 +12,6 @@ We covered:
 - "use strict" for strict mode
 - try-catch for error handling
 
-Stay tuned for upcoming sessions and continue your journey to become a proficient React developer!
+Stay tuned for upcoming sessions as we continue on the journey to becoming proficient `React` developers!
 
-The recorded video for this session will be out soon, on [this YouTube playlist.](https://www.youtube.com/playlist?list=PLU10dryLOLEGEnWCZgG87VkvAi-fPaDfE)
+The recorded video for this session is available on YouTube, [here](https://youtu.be/SyBuQAsc4pc)
