@@ -10,8 +10,10 @@ In other to implement the CRUD principle, the user is able to:
 - Delete the goods that are out of stock
 - Retreive a list of the available goods and their prices
 
-The codes were written in live sessions which were recorded.
-
+## Live Recordings
+**The codes were written in live sessions which were recorded.** You will find the vidoes in the links provided below:
+- [part 1](https://youtu.be/2dm6MhWy9OY) - Frontend development using `HTML` and `CSS`
+- 
 ## The Team
 We had the following persons in the team that worked on the project, initially:
 ### Proposal
