@@ -13,6 +13,7 @@ In other to implement the CRUD principle, the user is able to:
 ## Live Recordings
 **The codes were written in live sessions which were recorded.** You will find the vidoes in the links provided below:
 - [Part 1](https://youtu.be/2dm6MhWy9OY) - Frontend development using `HTML` and `CSS`
+- [Part 2](https://youtu.be/kFZSqpePHNE) - Frontend development continued
 - 
 ## The Team
 We had the following persons in the team that worked on the project, initially:
