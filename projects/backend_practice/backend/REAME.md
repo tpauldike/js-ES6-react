@@ -1,0 +1,4 @@
+- C --- Create (POST request)
+- R --- RETRIEVE (GET request)
+- U --- UPDATE (PUT request) / (PATCH request)
+- D --- DELETE (DELETE request)

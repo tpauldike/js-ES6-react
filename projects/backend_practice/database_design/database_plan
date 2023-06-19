@@ -1,0 +1,7 @@
+DATABASE:	learn_with_me
+TABLE:		subcription_form
+COLUMNS:	id(pri-key)	full_name	google_name	sex		marital_status
+
+DATABASE:	learn_with_me
+TABLE:		subcription_info
+COLUMNS:	subcription	course		schedule	email(p-key)	phone	id(f-key)
