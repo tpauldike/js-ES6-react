@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>LearnWithMe</title>
+    <link rel="stylesheet" href="styles/form.css" />
+  </head>
+  <header>
+    <div class="header">
+      <h1 id="learn">LearnWithMe</h1>
+      <nav></nav>
+    </div>
+    <h4 id="sub">Subscription Form</h4>
+  </header>
+  <body>
+    <form>
+      <div class="form-group">
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" required />
+      </div>
+      <div class="form-group">
+        <label for="google_name">Google Name:</label>
+        <input type="text" id="google_name" name="google_name" required />
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="marital_status">Marital Status:</label>
+        <select id="marital_status" name="marital_status" required>
+          <option value="">Select</option>
+          <option value="single">Single</option>
+          <option value="married">Married</option>
+          <option value="divorced">Divorced</option>
+          <option value="widowed">Widowed</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="subscription">Subscription:</label>
+        <select id="subscription" name="subscription" required>
+          <option value="">Select</option>
+          <option value="one-month">One month</option>
+          <option value="two-months">Two months</option>
+          <option value="three-months">Three months</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+          <option value="">Select</option>
+          <option value="html-css">HTML, CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="react">React</option>
+          <option value="c">C</option>
+          <option value="python">Python</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="schedule">Schedule:</label>
+        <select id="schedule" name="schedule" required>
+          <option value="">Select</option>
+          <option value="one-hour">1 hour daily</option>
+          <option value="two-hours">2 hours daily</option>
+          <option value="custom">Custom</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="custom-schedule">Custom Schedule: </label>
+        <input type="text" id="custom-schedule" name="custom-schedule" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" />
+      </div>
+      <div class="form-group">
+        <button id="submit-form" type="submit">Submit</button>
+      </div>
+    </form>
+    <script src="scripts/form.js"></script>
+  </body>
+</html>
