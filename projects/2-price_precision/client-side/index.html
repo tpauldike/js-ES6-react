@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <script src="https://kit.fontawesome.com/4628654256.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <div class="container">
         <!-- NAV COMPONENT -->
@@ -72,7 +74,7 @@
                                 <td>Caustic Soda</td>
                                 <td>750</td>
                                 <td>78379</td>
-                                <td>Available</td>
+                                <td class="available">Available</td>
                             </tr>
 
                             <tr>
@@ -90,12 +92,80 @@
                             </tr>
                         </tbody>
                     </table>
-                    <button class="btn">Add New Product</button>
+                    <button class="btn" id="add-new-product-btn">Add New Product</button>
+                </div>
+
+                <div class="page-count">
+                    <a href=""><i class="fa-solid fa-angle-left"></i></a>
+                    <a href="">1</a>
+                    <a href="" class="active">2</a>
+                    <a href="">3</a>
+                    <a href="">4</a>
+                    <a href="">. . .</a>
+                    <a href="">47</a>
+                    <a href=""><i class="fa-solid fa-angle-right"></i></a>
                 </div>
             </div>
         </main>
+
+
+        <!-- END OF MAIN -->
+
+
+        <!-- FORM POPUP -->
+
+        <div class="backdrop" id="backdrop">
+            <div class="form-container">
+                <div class="form-heading">
+                    <h2>Add New Product</h2>
+                    <i class="fa-solid fa-xmark" id="close"></i>
+                </div>
+
+                <form>
+                    <div class="form-element">
+                        <label for="product-name">Product Name</label>
+                        <input type="text" placeholder="Enter product name" required>
+                    </div>
+
+                    <div class="form-element">
+                        <label for="product-price">Price</label>
+                        <input type="text" placeholder="Enter price" required>
+                    </div>
+
+                    <div class="form-element">
+                        <label for="order-no">Order Number</label>
+                        <input type="text" placeholder="Enter order number" required>
+                    </div>
+
+                    <div class="form-element radio">
+                        <legend>Product Status</legend>
+                        <div class="radio-input">
+
+                            <div>
+                                <input type="radio" id="available" name="status" value="available" required />
+                                <label for="available">Available</label>
+                            </div>
+
+                            <div>
+
+                                <input type="radio" id="finished" name="status" value="finished" required />
+                                <label for="finished">Out of stock</label>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-element submit-btn">
+                        <button class="btn" id="add-product-btn">Add product</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 
     <script src="./index.js"></script>
 </body>
+
 </html>
