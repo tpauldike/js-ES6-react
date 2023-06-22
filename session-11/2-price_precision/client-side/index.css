@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --bg-light: rgb(238, 238, 238);
+    --bg-white: #fff;
+    --primary-color: rgb(96, 69, 252);
+    --primary-blue: rgb(57, 170, 252);
+    --grey-text: rgba(73, 71, 71, 0.981);
+    --box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    --card-border-radius: 0.7rem;
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+html{
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-light);
+    color: var(--grey-text);
+}
+
+.container{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: var(--bg-white);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    box-shadow: var(--box-shadow);
+}
+
+nav .logo img{
+    width: 4rem;
+}
+
+nav .logo, nav .nav-icons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+nav .logo h3{
+    color: var(--primary-blue);
+}
+
+nav .logo h3 span{
+    color: var(--primary-color);
+}
+
+.nav-icons i{
+    background-color: var(--bg-light);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.profile-photo{
+    background-color: var(--primary-color);
+    padding: 0.6rem;
+    border-radius: 50%;
+    color: var(--bg-white);
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+/* MAIN COMPONENT STYLING */
+
+main{
+    display: grid;
+    grid-template-columns: 6rem auto;
+    width: 100%;
+    height: 80vh;
+    gap: 5rem;
+}
+
+main aside{
+    background-color: var(--bg-white);
+}
+aside .side-bar-icons{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.8rem;
+    gap: 1rem
+}
+
+aside .side-bar-icons a{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: var(--grey-text);
+    transition: all 400ms ease-in-out;
+}
+
+aside .side-bar-icons .active{
+    background-color: var(--primary-color);
+    color: var(--bg-white);
+}
+
+aside .side-bar-icons a:hover{
+    background-color: var(--primary-color);
+    color: var(--bg-white);   
+}
+
+.products{
+    margin: 2rem;
+    margin-left: 0;
+}
+
+.products h3{
+    font-size: 1.5rem;
+}
+
+.table{
+    border-radius: var(--card-border-radius);
+    padding: 3rem;
+    width: 100%;
+    background-color: var(--bg-white);
+    box-shadow: var(--box-shadow);
+}
+
+table{
+    width: 100%;
+    text-align: center;
+
+}
+
+table tr td{
+    margin-bottom: 2rem;
+    height: 2.5rem;
+    border-bottom: 1px solid var(--bg-light);
+
+}
