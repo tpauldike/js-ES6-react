@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning React</title>
+</head>
+<body>
+    <div id="container"> 
+        <h1 class="page-title">Learning React - Session 13</h1>
+        <div id="react-container">
+            <!-- Our react codes will take this space in the document -->
+        </div>
+    </div>
+    <script src="https://unpkg.com/react@15.4.2/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.4.2/dist/react-dom.js"></script>
+    <script>
+        // const largestHeader = document.getElementById('page-title');
+        // setTimeout(() => {
+        //     largestHeader.textContent = "Manipulating the DOM"},
+        //     3000
+        //     )
+        const headerOne = React.createElement('h1', {'className': 'fruits'}, 'Learning React - Session 13')
+
+        // We'll continue from here
+        // const testing = React.createElement('ul', {'className': 'fruits'}, 'Learning React - Session 13')
+        ReactDOM.render(headerOne, document.getElementById('container'))
+    </script>
+</body>
+</html>
