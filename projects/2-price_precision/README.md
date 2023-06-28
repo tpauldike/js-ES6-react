@@ -5,16 +5,20 @@
 
 **PricePrecision** is a web app that was built to help a shop attendant keep track of the current prices of goods in the store.
 In other to implement the CRUD principle, the user is able to:
-- add new goods and their prices
-- update the prices of already existing goods
-- Delete the goods that are out of stock
-- Retreive a list of the available goods and their prices
+- add new goods and their prices to his data
+- edit or update the prices or product status of already existing goods
+- Delete the goods that are not needed anymore
+- Retreive a list of the available goods and their prices and status
 
 ## Live Recordings
-**The codes were written in live sessions which were recorded.** You will find the vidoes in the links provided below:
+**The codes were written in live sessions which were recorded** so that others may watch and learn. You will find the vidoes in the links provided below:
 - [Part 1](https://youtu.be/2dm6MhWy9OY) - Frontend development using `HTML` and `CSS`
 - [Part 2](https://youtu.be/kFZSqpePHNE) - Frontend development continued
-- 
+- Part 3 - Frontend development continued
+- [Part 4](https://youtu.be/KMhWEpuoN7c) - Database Schema
+- [Part 5](https://youtu.be/UUR3W0BaOx4) - Backend development using `Express.js` on `node.js`
+- Part 6 - Backend development continued
+
 ## The Team
 We had the following persons in the team that worked on the project, initially:
 ### Proposal
