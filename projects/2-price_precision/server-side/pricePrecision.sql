@@ -13,8 +13,10 @@ CREATE TABLE IF NOT EXISTS user_info (
 	business_name VARCHAR(255) NOT NULL,
 	business_id VARCHAR(36) NOT NULL,
 	description VARCHAR(500),
-	business_address VARCHAR(500),
+	business_address VARCHAR(500)
 );
+
+CREATE INDEX ind_user_business_id ON user_info (business_id);
 
 CREATE TABLE IF NOT EXISTS product_info (
 	order_no INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
