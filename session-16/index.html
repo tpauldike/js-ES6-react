@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning React</title>
+</head>
+<body>
+    <div id="container"> 
+       
+        <h1 class="page-title">Learning React - Session 16</h1>
+        <ul>
+            <b>Attendance list</b>
+            <li>Ebube</li>
+            <li>John Abass</li>
+            <li>Abiodun Shittu</li>
+            <li>Gold Kid</li>
+            <li>Carpenter John</li>
+        </ul>
+        <div id="react-container">
+            <!-- Our react codes will take this space in the document -->
+        </div>
+    </div>
+    <script src="https://unpkg.com/react@15.4.2/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.4.2/dist/react-dom.js"></script>
+    <script>
+        /*
+        const list = React.createElement('ul',
+        {"className": "list-of-fruits", id: "fruit-list"},
+        React.createElement('b', null, 'List of fruits'),
+        React.createElement('li', null, 'Orange'),
+        React.createElement('li', null, 'Cherry'),
+        React.createElement('li', null, 'Cucumber'),
+        React.createElement('li', null, 'Pawpaw'),
+        React.createElement('li', null, 'Strawberry'),
+        React.createElement('li', null, 'Apple'),
+        )
+        */
+    //    ReactDOM.render(list, document.getElementById('react-container'))
+
+        const fruits = ["Orange", "Cherry", "Cucumber", "Strawberry", "Watermelon", "Avocado", "Pea", "Berry", "Apple"]
+
+        const list = React.createElement(
+            'ul', 
+            null, 
+            React.createElement('b', null, "List of Fruits"), 
+            fruits.map((fruit, idx) => React.createElement('li', {key: idx}, fruit)),
+            React.DOM.p(null, "This is a new paragraph")
+            )
+
+        ReactDOM.render(list, document.getElementById('react-container'))
+
+        
+
+        // const testing = React.createElement('ul', {'className': 'fruits'}, 'Learning React - Session 13')
+        // ReactDOM.render(headerOne, document.getElementById('container'))
+    </script>
+</body>
+</html>
