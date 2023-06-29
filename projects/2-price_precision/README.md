@@ -26,18 +26,25 @@ We had the following persons in the team that worked on the project, initially:
 ...
 ### UI/UX
 [A. A Takim](https://github.com/AtuAchuTakim)
+
 ...
 ### Frontend Development
 [Ebube Anyanwu](https://github.com/chiefEbube)
+
 [Gloria Maaji](https://github.com/GDesigns49)
+
 ...
 ### Database Design and Schema
 [Topman Paul-Dike](https://github.com/tpauldike)
+
 [Ibrahim Salisu Abdullahi](https://github.com/ohara19)
+
 ...
 ### Backend Development
 [Abiodun Shittu](https://github.com/Abiodun-Shittu)
+
 [Emmanuel Myles](https://github.com/Myles2005)
+
 ...
 ### Others
 More persons did some work behind the scene that brought about the success of the project, such as; testing, deployment, refactoring etc.
