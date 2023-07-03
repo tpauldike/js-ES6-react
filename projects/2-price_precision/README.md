@@ -18,6 +18,7 @@ In other to implement the CRUD principle, the user is able to:
 - [Part 4](https://youtu.be/KMhWEpuoN7c) - Database Schema
 - [Part 5](https://youtu.be/UUR3W0BaOx4) - Backend development using `Express.js` on `node.js`
 - [Part 6](https://youtu.be/7XOki7YUmeM) - Backend development continued
+- [Part 7](https://youtu.be/ItvzH8AJ3pw) - Backend development continued
 
 ## The Team
 We had the following persons in the team that worked on the project, initially:
