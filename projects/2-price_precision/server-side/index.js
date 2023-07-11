@@ -10,8 +10,8 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.get("/test", (req, res) => {
-	return res.json({ message: "This App is running!!!"})
+app.get("/", (req, res) => {
+	return res.json({ message: "Welcome to Price Precision backend service 🚀" });
 });
 
 connection;
