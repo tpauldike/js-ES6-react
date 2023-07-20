@@ -142,16 +142,7 @@ aside .side-bar-icons a:hover{
     color: var(--bg-white);   
 }
 
-.products{
-    margin: 2rem;
-    margin-left: 0;
-}
-
-.products h3{
-    font-size: 1.5rem;
-}
-
-.table{
+.background{
     border-radius: var(--card-border-radius);
     padding: 3rem;
     width: 100%;
@@ -159,118 +150,8 @@ aside .side-bar-icons a:hover{
     box-shadow: var(--box-shadow);
     position: relative;
     margin-top:2rem;
-
+    background-image: url("../images/bg-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
 }
-
-.table .btn{
-    position: absolute;
-    right:2rem;
-    bottom: 2rem;
-}
-
-table{
-    width: 100%;
-    text-align: center;
-    margin-bottom: 5rem;
-
-}
-
-table tr td{
-    margin-bottom: 2rem;
-    height: 2.5rem;
-    border-bottom: 1px solid var(--bg-light);
-
-}
-
-.available{
-    color: green;
-}
-
-.finished{
-    color: red;
-}
-
-.page-count{
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.page-count a{
-    padding: 0.3rem 0.5rem;
-    border-radius: 0.5rem;
-}
-
-.active{
-    background-color: var(--primary-color);
-    color: #fff;
-}
-
-.backdrop{
-    background-color: rgba(0, 0, 0, 0.1);
-    position: absolute;
-    width: 100%;
-    min-height: 100vh;
-    top: 0;
-    left: 0;
-    display: none;
-}
-
-.backdrop > .form-container{
-    background-color: var(--bg-white);
-    width: 50vw;
-    padding: 2.5rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: var(--card-border-radius);
-}
-
-.form-heading{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-form{
-    margin: 2rem 0;
-}
-
-form > .form-element > input[type=text]{
-    padding: 1rem;
-    border: none;
-    background-color: rgba(234, 229, 229, 0.757);
-    display: block;
-    width: 100%;
-    margin-top: 0.5rem;
-    border-radius: 0.5rem;
-}
-
-.form-element{
-    margin-bottom: 1.5rem;
-}
-
-.radio-input{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 1rem;
-}
-
-.radio-input div{
-    display: flex;
-    align-items: center;
-}
-
-input[type=radio]{
-    margin-right: 5px;
-}
-
-.submit-btn{
-    width: 20%;
-    margin-inline: auto;
-}
-
-.fa-xmark{
-    cursor: pointer;
-}
-
