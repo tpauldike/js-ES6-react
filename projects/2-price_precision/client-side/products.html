@@ -22,7 +22,7 @@
             <div class="nav-icons">
                 <i class="fa-solid fa-bell"></i>
                 <div class="profile-photo">
-                   
+                   <p id="initials"></p>
                 </div>
             </div>
         </nav>
@@ -72,7 +72,15 @@
 
                         <tbody>
                             <tr>
-                                <td>Caustic Soda</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="available"></td>
+                                <th>x</th>
+                            </tr>
+
+                            <tr>
+                                <td contenteditable="true">Caustic Soda</td>
                                 <td>750</td>
                                 <td>78379</td>
                                 <td class="available">Available</td>
@@ -125,20 +133,20 @@
                     <i class="fa-solid fa-xmark" id="close"></i>
                 </div>
 
-                <form>
+                <form id="product-form">
                     <div class="form-element">
                         <label for="product-name">Product Name</label>
-                        <input type="text" placeholder="Enter product name" required>
+                        <input id="product_name" type="text" placeholder="Enter product name" required>
                     </div>
 
                     <div class="form-element">
                         <label for="product-price">Price</label>
-                        <input type="text" placeholder="Enter price" required>
+                        <input id="price" type="text" placeholder="Enter price" required>
                     </div>
 
                     <div class="form-element">
                         <label for="per">Per</label>
-                        <input type="text" placeholder="Enter the unit of measurement" required>
+                        <input id="per" type="text" placeholder="Enter the unit of measurement">
                     </div>
 
                     <div class="form-element radio">
@@ -146,13 +154,13 @@
                         <div class="radio-input">
 
                             <div>
-                                <input type="radio" id="available" name="status" value="available" required />
+                                <input type="radio" id="status" value="available" name="status"/>
                                 <label for="available">Available</label>
                             </div>
 
                             <div>
 
-                                <input type="radio" id="finished" name="status" value="finished" required />
+                                <input type="radio" id="status" value="Out of stock" name="status"/>
                                 <label for="finished">Out of stock</label>
 
 

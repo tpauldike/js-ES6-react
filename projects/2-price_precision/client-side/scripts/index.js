@@ -33,27 +33,32 @@ signUpForm.addEventListener("submit", async (e) => {
   registerButton.innerHTML = "Loading...";
 
   // Get the form data
-  const firstNameInput = document.getElementById("firstname")
-  const lastNameInput = document.getElementById("lastname")
-  const genderInput = document.getElementById("gender")
-  const phoneNumberInput = document.getElementById("phone")
-  const emailInput = document.getElementById("email")
-  const passwordInput = document.getElementById("password")
-  const businessNameInput = document.getElementById("businessName")
-  const descriptionInput = document.getElementById("description")
-  const businessAddressInput = document.getElementById("businessAddress")
+  // const firstNameInput = document.getElementById("firstname")
+  // const lastNameInput = document.getElementById("lastname")
+  // const genderInput = document.getElementById("gender")
+  // const phoneNumberInput = document.getElementById("phone")
+  // const emailInput = document.getElementById("email")
+  // const passwordInput = document.getElementById("password")
+  // const businessNameInput = document.getElementById("businessName")
+  // const descriptionInput = document.getElementById("description")
+  // const businessAddressInput = document.getElementById("businessAddress")
 
-  const formData = {
-    first_name: firstNameInput.value,
-    last_name: lastNameInput.value,
-    gender: genderInput.value,
-    phone: phoneNumberInput.value,
-    email: emailInput.value,
-    password: passwordInput.value,
-    business_name: businessNameInput.value,
-    description: descriptionInput.value,
-    business_address: businessAddressInput.value
-  }
+  // const formData = {
+  //   first_name: firstNameInput.value,
+  //   last_name: lastNameInput.value,
+  //   gender: genderInput.value,
+  //   phone: phoneNumberInput.value,
+  //   email: emailInput.value,
+  //   password: passwordInput.value,
+  //   business_name: businessNameInput.value,
+  //   description: descriptionInput.value,
+  //   business_address: businessAddressInput.value
+  // }
+
+  const formData = new FormData(e.target)
+  // console.log(Object.fromEntries(formData.entries()))
+  const formDataObject =Object.fromEntries(formData.entries())
+
 
   // console.log(formData);
   try {
@@ -61,7 +66,7 @@ signUpForm.addEventListener("submit", async (e) => {
     const response = await fetch(`${baseUrl}/user/create`, {
       method: 'POST',
       headers: { "Content-Type": "application/json"},
-      body: JSON.stringify(formData)
+      body: JSON.stringify(formDataObject)
     })
 
     const data = await response.json();
@@ -106,6 +111,8 @@ signInForm.addEventListener("submit", async(e) => {
 		const data = await response.json();
 		console.log(data);
 		if (data.message === "Login Successful") {
+      localStorage.setItem("userToken", data.token)
+      localStorage.setItem("initials", data.user.first_name[0] + data.user.last_name[0])
 			setTimeout(() => {
 				window.location = "./products.html";
 			}, 2000);
