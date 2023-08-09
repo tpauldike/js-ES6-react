@@ -12,13 +12,15 @@ In other to implement the CRUD principle, the user is able to:
 
 ## Live Recordings
 **The codes were written in live sessions which were recorded** so that others may watch and learn. You will find the videos in the links provided below:
-- [Part 1](https://youtu.be/2dm6MhWy9OY) - Frontend development using `HTML` and `CSS`
-- [Part 2](https://youtu.be/kFZSqpePHNE) - Frontend development continued
-- Part 3 - Frontend development continued
-- [Part 4](https://youtu.be/KMhWEpuoN7c) - Database Schema
-- [Part 5](https://youtu.be/UUR3W0BaOx4) - Backend development using `Express.js` on `node.js`
-- [Part 6](https://youtu.be/7XOki7YUmeM) - Backend development continued
-- [Part 7](https://youtu.be/ItvzH8AJ3pw) - Backend development continued
+- [Part 1](https://youtu.be/2dm6MhWy9OY) - Frontend development I (using `HTML` and `CSS`)
+- [Part 2](https://youtu.be/kFZSqpePHNE) - Frontend development II
+- Part 3 - Frontend development III
+- [Part 4](https://youtu.be/KMhWEpuoN7c) - Database Schema/Design
+- [Part 5](https://youtu.be/UUR3W0BaOx4) - Backend development I (using `Express.js` on `node.js`)
+- [Part 6](https://youtu.be/7XOki7YUmeM) - Backend development II
+- [Part 7](https://youtu.be/ItvzH8AJ3pw) - Backend development III
+- [Part 8](https://youtu.be/ommXwwlGBU0) - API consumption I
+- [Part 9](https://youtu.be/3y7p7EPm67g) - API consumption II
 
 ## The Team
 We had the following persons in the team that worked on the project, initially:
@@ -50,13 +52,15 @@ More persons did some work behind the scene that brought about the success of th
 This space is meant for those who got interested to contribute later, after the initial work. *(please add your name here)*
 
 ## Technologies Used
-UI/UX    -- Figma
+UI/UX      -- Figma
 
-Frontend -- `HTML`, `CSS`, `JavaScript`
+Frontend   -- `HTML`, `CSS`, `JavaScript`
 
-Backend  -- `Express`, `node.js`
+Backend    -- `Express`, `node.js` and the necessary dependencies as seen in the package.json file
 
-Database -- `MySQL`
+Database   -- `MySQL`
+
+Deployment -- Vercel (API, Front end), clever-cloud (database)
 
 ## Usage
 *loading...*
