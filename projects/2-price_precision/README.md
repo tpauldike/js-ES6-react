@@ -19,7 +19,7 @@ In other to implement the CRUD principle, the user is able to:
 - [Part 5](https://youtu.be/UUR3W0BaOx4) - Backend development I (using `Express.js` on `node.js`)
 - [Part 6](https://youtu.be/7XOki7YUmeM) - Backend development II
 - [Part 7](https://youtu.be/ItvzH8AJ3pw) - Backend development III
-- [Part 8](https://youtu.be/ommXwwlGBU0) - API consumption I
+- [Part 8](https://youtu.be/ommXwwlGBU0) - API consumption I (using `JavaScript`)
 - [Part 9](https://youtu.be/3y7p7EPm67g) - API consumption II
 
 ## The Team
