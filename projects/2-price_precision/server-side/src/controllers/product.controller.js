@@ -83,7 +83,7 @@ export const deleteProduct = async(req, res) => {
 
 		await queryPromise("DELETE FROM product_info WHERE order_no = ? AND business_id = ?", [ order_no, business_id ])
 
-		return res.status(200).json({ message: " Product deleted successfully"})
+		return res.status(200).json({ message: "Product deleted successfully"})
 		
 	} catch (error) {
 		console.log("Error deleting product", error.message);
