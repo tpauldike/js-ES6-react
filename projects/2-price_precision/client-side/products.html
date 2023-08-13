@@ -62,44 +62,15 @@
                             <tr>
                                 <th>Product Name</th>
                                 <th>Price ($)</th>
+                                <th>Per</th>
                                 <th>Order Number</th>
                                 <th>Status</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
 
-                        <tbody>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td class="available"></td>
-                                <th>x</th>
-                            </tr>
-
-                            <tr>
-                                <td contenteditable="true">Caustic Soda</td>
-                                <td>750</td>
-                                <td>78379</td>
-                                <td class="available">Available</td>
-                                <th>x</th>
-                            </tr>
-
-                            <tr>
-                                <td>Nama meat</td>
-                                <td>100.00</td>
-                                <td>484577</td>
-                                <td class="available">Available</td>
-                                <th>x</th>
-                            </tr>
-
-                            <tr>
-                                <td>Folic acid</td>
-                                <td>900.00</td>
-                                <td>483776</td>
-                                <td class="finished">Out of stock</td>
-                                <th>x</th>
-                            </tr>
+                        <tbody id="table-body">
+                           
                         </tbody>
                     </table>
                     <button class="btn" id="add-new-product-btn">Add New Product</button>
@@ -127,7 +98,7 @@
         <div class="backdrop" id="backdrop">
             <div class="form-container">
                 <div class="form-heading">
-                    <h2>Add New Product</h2>
+                    <h2 id="backdrop-heading">Add New Product</h2>
                     <i class="fa-solid fa-xmark" id="close"></i>
                 </div>
 
@@ -158,7 +129,7 @@
 
                             <div>
 
-                                <input type="radio" id="status" value="Out of stock" name="status"/>
+                                <input type="radio" id="status2" value="Out of stock" name="status"/>
                                 <label for="finished">Out of stock</label>
 
 
